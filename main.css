@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  background-color: pink;
+}
+
+h1{
+  font-weight: lighter;
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.inputSection{
+  margin: 50px 0px 80px 0px;
+  width: 400px
+}
+
+.inputs {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-top: 10px;
+}
+
+.addOption {
+  margin-top: 10px;
+  background-color: rgb(251, 134, 177);
+  color: rgb(230, 19, 127);
+  border-radius: 8px;
+}
+
+.SeeResultOption{
+  border-radius: 50%;
+}
