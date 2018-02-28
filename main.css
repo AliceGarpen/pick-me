@@ -41,3 +41,7 @@ input {
 .SeeResultOption{
   border-radius: 50%;
 }
+
+p:hover, h1:hover, a:hover {
+    color: red;
+}
