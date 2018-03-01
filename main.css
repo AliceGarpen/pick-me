@@ -35,6 +35,8 @@ input {
   margin-top: 10px;
   background-color: rgb(251, 134, 177);
   color: rgb(230, 19, 127);
+  background-color: red;
+  color: rgb(251, 134, 177);
   border-radius: 8px;
 }
 
@@ -42,6 +44,23 @@ input {
   border-radius: 50%;
 }
 
+.submit{
+  background-color: red;
+  color: rgb(251, 134, 177);
+  border-radius: 20px;
+}
+
 p:hover, h1:hover, a:hover {
     color: red;
+}
+
+.resultSection {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  font-weight: lighter;
+  font-family: sans-serif;
+  color: red;
 }
